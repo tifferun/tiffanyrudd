@@ -61,7 +61,7 @@ height: 980px;
     padding-bottom: 5px; 
     background-color: white; 
     /* background-color: red;  */
-    color: orange;   
+    color: darkslategray;    
 }
 
 .row-c {
@@ -104,9 +104,11 @@ height: 980px;
 }
 
 .column-about {
-    font-size: 25px; 
-    padding-bottom: 110px;
+    font-size: 20px; 
+    padding-top: 200px; 
+    padding-bottom: 20px;
     text-align: left; 
+    margin: 25px;
 
 }
 
@@ -131,12 +133,13 @@ height: 980px;
 }
 
 .tiffany {
-    /* position: absolute; */
-    background-color: white; 
-    top:45%;
-    right:12%;
-    float: right; 
-    position: relative;;
+    position: absolute;
+    background-color: white;  
+    top:90%;
+    right:43%;
+    position: relative;
+    
+
 
 
 }
