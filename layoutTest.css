@@ -14,11 +14,11 @@ height: 980px;
 .card-container {
     background-color: white; 
     padding: 10px;
-    padding-bottom: 60px; 
+    padding-bottom: 5px; 
     width: 100%;  
 }
 
-#card .chat {
+/* #card .chat {
     color:green; 
     text-align: center; 
     position: relative; 
@@ -27,25 +27,31 @@ height: 980px;
     color:white;  
     text-align: center;
     position: absolute;  
-   
-}
+    /* */
 
 #card .btn {
     position: absolute;
-    top: 110%;
+    top: 9.5%;
     left: 50%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     background-color: white; 
-    color: black; 
+    color: black;
     font-size: 16px;
     padding: 12px 24px;
     border: none;
     cursor: pointer;
     border-radius: 5px;
     font-family: 'Prompt', sans-serif;
-    font-weight: bold;
+    font-weight: bold; 
+
 }
+
+#card .btn:hover {
+    color: white; 
+    background-color: orange; 
+}
+
 
 #subject {
     font-size: 2rem;
@@ -54,6 +60,7 @@ height: 980px;
     width: 100%;
     padding-bottom: 5px; 
     background-color: white; 
+    /* background-color: red;  */
     color: orange;   
 }
 
@@ -85,16 +92,51 @@ height: 980px;
     font-family: 'Quicksand', sans-serif;
     text-align: center; 
     column-count: 4; 
-    padding: 11px; 
+    padding: 5px; 
     padding-bottom: 30px; 
     background-color: white; 
     color:orange;  
 }
 
 .skill-type:hover {
+    color: white; 
     color: darkslategrey; 
 }
 
 .column-about {
-    font-size: 15px; 
+    font-size: 25px; 
+    padding-bottom: 110px;
+    text-align: left; 
+
+}
+
+#card .btnH {
+    position: absolute;
+    top: 63%;
+    left: 65%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: white; 
+    color: black;
+    font-size: 16px;
+    padding: 12px 24px;
+    font-family: 'Prompt', sans-serif;
+    font-weight: bold; 
+
+}
+
+#card .btnH:hover {
+    color: white; 
+    background-color:darkslategray; 
+}
+
+.tiffany {
+    /* position: absolute; */
+    background-color: white; 
+    top:45%;
+    right:12%;
+    float: right; 
+    position: relative;;
+
+
 }
