@@ -1,0 +1,100 @@
+#master-container {
+width: 100%;
+height: 980px;
+}
+
+#card {
+    position: absolute;
+    align-content: center; 
+    top: 10%;
+    left: 10%;
+    right: 10%;
+}
+
+.card-container {
+    background-color: white; 
+    padding: 10px;
+    padding-bottom: 60px; 
+    width: 100%;  
+}
+
+#card .chat {
+    color:green; 
+    text-align: center; 
+    position: relative; 
+}
+ #card .top-photo .dream {
+    color:white;  
+    text-align: center;
+    position: absolute;  
+   
+}
+
+#card .btn {
+    position: absolute;
+    top: 110%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: white; 
+    color: black; 
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-family: 'Prompt', sans-serif;
+    font-weight: bold;
+}
+
+#subject {
+    font-size: 2rem;
+    font-family: 'Quicksand', sans-serif;
+    text-align: center; 
+    width: 100%;
+    padding-bottom: 5px; 
+    background-color: white; 
+    color: orange;   
+}
+
+.row-c {
+    list-style: none;
+    font-size: 2rem;
+    font-family: 'Quicksand', sans-serif;
+    text-align: center; 
+    column-count: 4; 
+    padding: 11px; 
+    background-color: white; 
+    color:orange;  
+}
+
+.row-d {
+    list-style: none;
+    font-size: 2rem;
+    font-family: 'Quicksand', sans-serif;
+    text-align: center; 
+    column-count: 4; 
+    padding: 11px; 
+    background-color: white; 
+    color:orange;  
+}
+
+.row-e {
+    list-style: none;
+    font-size: 2rem;
+    font-family: 'Quicksand', sans-serif;
+    text-align: center; 
+    column-count: 4; 
+    padding: 11px; 
+    padding-bottom: 30px; 
+    background-color: white; 
+    color:orange;  
+}
+
+.skill-type:hover {
+    color: darkslategrey; 
+}
+
+.column-about {
+    font-size: 15px; 
+}
