@@ -1,0 +1,19 @@
+
+/* #card .btnH {
+    position: absolute;
+    top: 10%;
+    left: 65%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: red; 
+    color: black;
+    font-size: 16px;
+    padding: 12px 24px;
+    font-family: 'Prompt', sans-serif;
+    font-weight: bold; 
+} */
+
+/* #card .btnH:hover {
+    color: white; 
+    background-color:darkslategray; 
+} */
