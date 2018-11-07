@@ -1,0 +1,52 @@
+<!-- Need to fix the card layout. This is a good website to visit and read up on: https://getflywheel.com/layout/card-layout-css-grid-layout-how-to/ -->
+
+
+                    <!-- <row> 
+                <div class="sampleOne">
+                    <div class="column-3">
+
+                        <div class="card" style="width: 18rem;">
+                            <img class="card-img-top" src="assets/images/BWHeart.jpg" alt="red cross">
+                            <div class="card-body">
+                                <h5 class="card-title">Geographical Mortality</h5>
+                                <p class="card-text">Website focused on a visual representation of complex medical data
+                                    pulling from multiple API's. </p>
+                                <a href="https://tifferun.github.io/Medical-Data-/" class="btn btn-primary">Enter Site</a>
+                            </div>
+                        </div>
+                    </div> 
+
+                    <div class="sampleTwo">
+                        <div class="column-3">
+
+                            <div class="card" style="width: 18rem;">
+                                <img class="card-img-top" src="assets/images/BWHeart.jpg" alt="red cross">
+                                <div class="card-body">
+                                    <h5 class="card-title">Geographical Mortality</h5>
+                                    <p class="card-text">Website focused on a visual representation of complex medical
+                                        data pulling from multiple API's. </p>
+                                    <a href="https://tifferun.github.io/Medical-Data-/" class="btn btn-primary">Enter
+                                        Site</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="sampleThree">
+                            <div class="column-3">
+
+                                <div class="card" style="width: 18rem;">
+                                    <img class="card-img-top" src="assets/images/BWHeart.jpg" alt="red cross">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Geographical Mortality</h5>
+                                        <p class="card-text">Website focused on a visual representation of complex
+                                            medical data pulling from multiple API's. </p>
+                                        <a href="https://tifferun.github.io/Medical-Data-/" class="btn btn-primary">Enter
+                                            Site</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </row>    
+                    </div>
+                </div> -->
+
+                    <!-- Another choice of how to display my project work  -->
