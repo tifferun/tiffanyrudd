@@ -144,9 +144,10 @@ height: 980px;
 }
 
 .column-about {
-    font-size: 20px; 
+    font-size: 16px; 
+    /* font-weight: bold; */
     padding-top: 200px; 
-    padding-bottom: 85px;
+    padding-bottom: 10px;
     text-align: left; 
     margin: 25px;
 }
@@ -214,5 +215,16 @@ height: 980px;
     left: 50%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
+}
 
+.footer {
+    background-color:white; 
+    background-color: red; 
+    background-color: darkslategray;
+    background-color: orange; 
+    background-color: maroon; 
+    background-color:#880d31;
+    color: white; 
+    text-align: center; 
+    /* font-weight: bold;  */
 }
