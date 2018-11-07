@@ -153,15 +153,27 @@ height: 980px;
 }
 
 .container-fluid {
-    /* background-color: maroon;  */
+    background-color: maroon; 
     position: absolute;
     top: 50%;
-    /* left: 50%; */
+    align-content: center; 
 }
 
-/* .btn-port {
-    background-color: darkslategray; 
+/* .col-md-1 {
+    background-color: green;
+    align-content: center;  
+}
+
+.col-md-2 {
+    background-color:pink;
+    align-content: center;  
 } */
+
+.col-md-4 {
+    background-color:yellow; 
+    align-content: center;  
+    padding: 50px; 
+}
 
 .btn-sample {
     /* position: absolute;
