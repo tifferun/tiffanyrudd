@@ -183,8 +183,17 @@ height: 980px;
     /* background-color:yellow;  */
     align-content: center;  
     padding: 50px; 
-    text-align: center; 
+    /* text-align: right;  */
+    text-align: left;  
     color: white; 
+    font-weight: bold; 
+}
+
+.description {
+/* background-color: red;  */
+color: #880d31;
+/* text-align: right;  */
+text-align: left;  
 }
 
 .btn-sample {
