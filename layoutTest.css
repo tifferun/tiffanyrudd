@@ -23,7 +23,7 @@ height: 980px;
 
 #chat {
     /* color:red; */
-    color: white; 
+    color:orange; 
     position: absolute;
     top: 6.5%;
     left: 50%;
@@ -34,12 +34,14 @@ height: 980px;
 
  #card .top-photo .dream {
     /* color:blue;  */
-    color: orange; 
+    color:white; 
     position: absolute;
     top: 4.5%;
     left: 50%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
+    font-size: 2em; 
+    text-align: center; 
  }
      
 
@@ -59,7 +61,7 @@ height: 980px;
 /* Animation */
 .anim-typewriter{
   animation: typewriter 4s steps(44) 1s 1 normal both,
-             blinkTextCursor 500ms steps(44) infinite normal;
+  blinkTextCursor 500ms steps(44) infinite normal;
 }
 @keyframes typewriter{
   from{width: 0;}
@@ -74,10 +76,10 @@ height: 980px;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     background-color:transparent;  
-    color: black;
+    color:white; 
     font-size: 16px;
     padding: 12px 24px;
-    border-color: black; 
+    border-color: white; 
     cursor: pointer;
     border-radius: 5px;
     font-family: 'Prompt', sans-serif;
@@ -86,7 +88,7 @@ height: 980px;
 
 #card .btn:hover {
     color:orange;  
-    border-color: black; 
+    border-color: white; 
     background-color:transparent; 
 }
 
@@ -238,3 +240,49 @@ text-align: left;
     color: white; 
     text-align: center;
 }
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+    header h1 {
+        font-size: 30px;
+    }
+    
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+    header h1 {
+        font-size: 36px;
+    }
+}
+
+/* For desktop: */
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+        width: 100%;
+    }
