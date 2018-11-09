@@ -134,6 +134,7 @@ height: 980px;
     padding: 11px; 
     background-color: white; 
     color:orange;  
+    /* float:right;  */
 }
 
 .row-d {
@@ -286,3 +287,5 @@ text-align: left;
     [class*="col-"] {
         width: 100%;
     }
+}
+    
