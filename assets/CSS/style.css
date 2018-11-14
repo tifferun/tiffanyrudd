@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+}
+
+body { 
+    background-image: url("../images/wheat.jpg");
+    background-repeat: no-repeat; 
+    background-size: cover;
+    /* background-position: 0 60px; */
+    /* font-family: odachi, cursive; */
+    /* font-size: 18px; */
+    background-color:green; 
+}
+
+#chat {
+    color:orange; 
+    font-size: 30px; 
+}
+
+.btn-hire {
+color: orange; 
+border: solid white 2px; 
+}
+
+#skills-card .skill {
+background-color: white; 
+color:orange; 
+}
