@@ -43,58 +43,22 @@ color:orange;
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.portfolio-card.card-image {
-    opacity: .55;
-}
-
-.header {
+.project-header {
 font-size: 10px; 
 }
 
-.header-Two{
-    font-size: 5px;
-    padding: -10px;  
-    }
-
-.test-One {
+.projects {
 /* background-color: red;  */
 text-align: justify; 
 text-align: left;
 padding: 10px; 
 font-size: 5px;
 align-content: center;  
+color: #650118;
 }
 
-.test-Two {
-    /* background-color:purple;  */
-    text-align: justify; 
-    text-align: left; 
-    padding: 10px; 
-    font-size: 5px; 
-    align-content: center; 
-}
-
-.test-Three {
-    /* background-color:green;   */
-    text-align: justify; 
-    text-align: left;
-    padding: 10px; 
-    font-size: 5px; 
-    align-content: center; 
+.btn-sample {
+    color: white; 
 }
 
 .tiffany {
@@ -115,11 +79,13 @@ align-content: center;
 .footer {
     color: white; 
     text-align: center;
-    background-color: maroon; 
+    background-color:#650118;
 }
 
 
 
+
+/*RESPONSIVE CSS BELOW!!!!*/
 /* Small devices (landscape phones, 576px and up) */
 
 @media (min-width: 576px) {
@@ -129,7 +95,13 @@ align-content: center;
     #chat {
         font-size: 15px;
         color: white; 
-      }
+       }
+.projects {
+        font-size: 10px;
+      } 
+    #projects-header {
+        font-size: 10px;
+      } 
   }
   
 
@@ -142,6 +114,12 @@ align-content: center;
       #chat {
           font-size: 20px;
         }   
+    .projects {
+            font-size: 10px;
+          } 
+    #projects-header {
+            font-size: 15px;
+          } 
 }
 
 
@@ -157,8 +135,14 @@ align-content: center;
     #skills-card {
             font-size: 30px;
           }  
-    
+    .projects {
+            font-size: 20px;
+          } 
+    #projects-header {
+            font-size: 100px;
+          } 
 }
+    
 
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) { 
@@ -171,6 +155,12 @@ align-content: center;
         } 
     #skills-card {
             font-size: 30px;
+          } 
+    .projects {
+            font-size: 20px;
+          } 
+    #projects-header {
+            font-size: 100px;
           } 
 }
 
