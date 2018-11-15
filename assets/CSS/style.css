@@ -27,6 +27,71 @@ background-color: white;
 color:orange; 
 }
 
+skills-card .skill: hover {
+    color: darkslategrey; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .portfolio-card.card-image {
     opacity: .55;
+}
+
+.header {
+font-size: 10px; 
+}
+
+.test-One {
+background-color: red; 
+text-align: justify; 
+text-align: left;
+padding: 10px; 
+font-size: 5px;
+align-content: center;  
+}
+
+.test-Two {
+    background-color:purple; 
+    text-align: justify; 
+    text-align: left; 
+    padding: 10px; 
+    font-size: 5px; 
+    align-content: center; 
+}
+
+.test-Three {
+    background-color:green;  
+    text-align: justify; 
+    text-align: left;
+    padding: 10px; 
+    font-size: 5px; 
+    align-content: center; 
+}
+
+.tiffany {
+    position: absolute;
+    background-color: white;  
+    top:90%;
+    right:42.5%;
+    position: relative;
+}
+
+.about-info {
+/* background-color: red;  */
+font-size: 15px; 
+/* padding-left: 20px;  */
+align-content: center; 
 }
