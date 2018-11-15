@@ -150,9 +150,14 @@ align-content: center;
     #dreams {
         font-size: 30px;
       }
-      #chat {
+    #chat {
           font-size: 40px;
-        }   
+          color:orange; 
+        } 
+    #skills-card {
+            font-size: 30px;
+          }  
+    
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
@@ -160,9 +165,13 @@ align-content: center;
     #dreams {
         font-size: 30px;
       }
-      #chat {
+    #chat {
           font-size: 40px;
+          color:orange; 
         } 
+    #skills-card {
+            font-size: 30px;
+          } 
 }
 
 
