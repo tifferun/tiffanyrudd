@@ -6,28 +6,39 @@ body {
     background-image: url("../images/wheat.jpg");
     background-repeat: no-repeat; 
     background-size: cover;
-    /* background-position: 0 60px; */
-    /* font-family: odachi, cursive; */
-    /* font-size: 18px; */
     background-color:green; 
 }
 
+#dreams {
+/* background-color: red;  */
+color: white; 
+/* font-size: 1.25rem;  */
+}
+
 #chat {
-    color:orange; 
-    font-size: 30px; 
+/* background-color: pink;  */
+color:orange; 
+font-size: 1.25rem; 
 }
 
 .btn-hire {
-color: orange; 
-border: solid white 2px; 
+color: white; 
+border: solid black 2px;  
 }
+
+.btn-hire:hover {
+    color: orange; 
+    background-color: white; 
+    border: solid black 2px;  
+    }
+
 
 #skills-card .skill {
 background-color: white; 
 color:orange; 
 }
 
-skills-card .skill: hover {
+#skills-card .skill:hover {
     color: darkslategrey; 
 }
 
@@ -54,8 +65,13 @@ skills-card .skill: hover {
 font-size: 10px; 
 }
 
+.header-Two{
+    font-size: 5px;
+    padding: -10px;  
+    }
+
 .test-One {
-background-color: red; 
+/* background-color: red;  */
 text-align: justify; 
 text-align: left;
 padding: 10px; 
@@ -64,7 +80,7 @@ align-content: center;
 }
 
 .test-Two {
-    background-color:purple; 
+    /* background-color:purple;  */
     text-align: justify; 
     text-align: left; 
     padding: 10px; 
@@ -73,7 +89,7 @@ align-content: center;
 }
 
 .test-Three {
-    background-color:green;  
+    /* background-color:green;   */
     text-align: justify; 
     text-align: left;
     padding: 10px; 
@@ -95,3 +111,60 @@ font-size: 15px;
 /* padding-left: 20px;  */
 align-content: center; 
 }
+
+.footer {
+    color: white; 
+    text-align: center;
+    background-color: maroon; 
+}
+
+
+
+/* Small devices (landscape phones, 576px and up) */
+
+@media (min-width: 576px) {
+    #dreams {
+      font-size: 10px;
+    }
+    #chat {
+        font-size: 15px;
+        color: white; 
+      }
+  }
+  
+
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+    #dreams {
+        font-size: 15px;
+      }
+      #chat {
+          font-size: 20px;
+        }   
+}
+
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+    #dreams {
+        font-size: 30px;
+      }
+      #chat {
+          font-size: 40px;
+        }   
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+    #dreams {
+        font-size: 30px;
+      }
+      #chat {
+          font-size: 40px;
+        } 
+}
+
+
+
+
